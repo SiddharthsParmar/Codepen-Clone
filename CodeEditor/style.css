@@ -1,0 +1,103 @@
+body {
+  background: #010101;
+  color: white;
+}
+.files {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+textarea {
+  height: 25vh;
+  width: 50vw;
+  background: #1d1e22;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+label {
+  margin: 0.5rem;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background: #010101;
+  display: flex;
+}
+#output {
+  background: #ffffff;
+  width: 45vw;
+  height: 80vh;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+i {
+  margin-right: 20px;
+}
+i.fa-code {
+  font-size: 25px;
+  color: red;
+}
+i.fa-css3-alt {
+  font-size: 25px;
+  color: rgb(46, 169, 226);
+}
+i.fa-js {
+  font-size: 25px;
+  color: rgb(217, 255, 49);
+}
+#themebtn {
+  position: absolute;
+  right: 0;
+  width: 60px;
+  border-radius: 50px;
+  background: #23d3ff;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  background: #ff290d;
+  position: relative;
+  translate: -2px;
+  border-radius: 50%;
+  box-shadow: black 1px 1px 2px;
+}
+.circle-right {
+  height: 20px;
+  width: 20px;
+  background: #ffffff;
+  position: relative;
+  translate: 20px;
+  border-radius: 50%;
+  box-shadow: black 1px 1px 2px;
+}
+
+.output-color {
+  background: #272727;
+}
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  height: 30px;
+  border-radius: 2px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.copyRigth {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.code-header{
+    position: absolute;
+    right: 0;
+    margin-right: 25rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+
+}
